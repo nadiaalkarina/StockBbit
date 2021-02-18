@@ -1,0 +1,78 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2379347096,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Browser commands",
+        "description": "",
+        "id": "seleniumframework.com-features;browser-commands",
+        "after": [
+          {
+            "result": {
+              "duration": 619077130,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.embedScreenshot(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4675336767,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I open seleniumframework website",
+            "match": {
+              "location": "BrowserCommands.i_open_seleniumframework_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12970979797,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I perform selenium browser commands",
+            "match": {
+              "location": "BrowserCommands.i_perform_selenium_browser_commands()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 7,
+            "name": "@RegressionTest"
+          },
+          {
+            "line": 8,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "seleniumframework.com features",
+    "description": "",
+    "id": "seleniumframework.com-features",
+    "keyword": "Feature",
+    "uri": "features/BrowserCommands.feature"
+  }
+]
